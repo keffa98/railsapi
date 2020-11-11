@@ -22,7 +22,7 @@
 
 production:
  url: <%= ENV["postgres://oizrujvzachstg:475a11624c202ee2194769f3dc834169c0644e1f2ddb2780b3bdf1a4742575cd@ec2-54-228-250-82.eu-west-1.compute.amazonaws.com:5432/d879nprkip0bha"] %>
-#  adapter: postgresql
+ adapter: postgresql
 #  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 #  timeout: 5000
  #encoding: unicode
