@@ -8,10 +8,10 @@
 
 require 'faker'
 
-#10.times do
-# new_cars = Car.new(name: Faker::Vehicle.make , color: Faker::Vehicle.color, rate: rand(5))    
-# new_cars.save
-#end
+10.times do
+new_cars = Car.new(name: Faker::Vehicle.make , color: Faker::Vehicle.color, rate: rand(5))    
+new_cars.save
+end
 
 
 10.times do
